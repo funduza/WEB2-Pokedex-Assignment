@@ -71,10 +71,7 @@ export default function PokedexPage() {
           const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
 
           return (
-            <div
-              className="col-6 col-md-4"
-              key={pokemon.id}
-            >
+            <div className="col-6 col-md-4 col-lg-2-4" key={pokemon.id}>
               <Link to={`/pokemon/${pokemon.name}`} className="text-decoration-none text-dark">
               <div 
                 className={`card h-100 text-center bg-${getTypeColor(pokemon.type)} text-white hover-effect`}
