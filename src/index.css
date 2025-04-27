@@ -24,6 +24,14 @@ html, body, #root {
 .bg-pink {
   background-color: #e83e8c !important; /* bootstrap pink hex for poision */
 }
+
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

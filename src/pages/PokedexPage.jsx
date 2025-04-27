@@ -74,7 +74,6 @@ export default function PokedexPage() {
             <div
               className="col-6 col-md-4"
               key={pokemon.id}
-              style={{ flex: "0 0 20%", maxWidth: "20%" }}
             >
               <Link to={`/pokemon/${pokemon.name}`} className="text-decoration-none text-dark">
               <div 
